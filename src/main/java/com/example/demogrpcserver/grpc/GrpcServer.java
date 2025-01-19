@@ -15,7 +15,7 @@ public class GrpcServer extends MyGrpcServiceGrpc.MyGrpcServiceImplBase {
     public StreamObserver<TestResponse> streamObserver;
 
     @Override
-    public void testGateway(TestRequest request, StreamObserver<TestResponse> responseObserver) {
+    public void testGrpcGateway(TestRequest request, StreamObserver<TestResponse> responseObserver) {
 
         try {
 

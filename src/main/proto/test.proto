@@ -6,7 +6,7 @@ option java_package = "com.example.api_gateway.grpc";
 option java_outer_classname = "TestGrpc";
 
 service MyGrpcService {
-  rpc testGateway (TestRequest) returns (TestResponse);
+  rpc testGrpcGateway (TestRequest) returns (TestResponse);
 }
 
 message TestRequest {
